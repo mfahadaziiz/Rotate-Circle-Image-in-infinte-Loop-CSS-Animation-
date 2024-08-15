@@ -1,0 +1,20 @@
+.animation-box span.elementor-icon:after {
+    content: "";
+    position: absolute;
+    background-image: url(/wp-content/uploads/2024/08/Group-1000002878.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 106px;
+    height: 106px;
+    top: -3px;
+       margin-left: -52px;
+    animation: rotatee 6s linear infinite;
+}
+@keyframes rotatee {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
