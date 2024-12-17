@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 350" fill="none">
+    <!-- Define the gradient for the path -->
+    <defs>
+        <linearGradient id="paint0_linear_80_1137" x1="0" y1="171.5" x2="1920" y2="171.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFB053"/>
+            <stop offset="1" stop-color="#00A1A5"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- The animated path border -->
+    <path id="path1" d="M0 1L137.606 121.28C254.012 223.029 418.742 248.324 560.313 186.188V186.188C666.88 139.416 788.561 141.531 893.438 191.978L1012.3 249.152C1131.44 306.46 1272.28 294.683 1380.25 218.385V218.385C1474.5 151.784 1594.74 133.806 1704.34 169.927L1920 241" stroke="url(#paint0_linear_80_1137)" fill="none"/>
+
+    <!-- Circle that will animate along the path -->
+    <circle cx="0" cy="0" r="21" fill="#00A1A5">
+        <animateMotion repeatCount="indefinite" dur="5s"> <!-- Set to 5s for faster movement -->
+            <mpath href="#path1" />
+        </animateMotion>
+    </circle>
+</svg>
